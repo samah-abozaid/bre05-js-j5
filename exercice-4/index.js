@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
     for(let i=0 ; i<todos.length ; i++){
         let itemList = document.createElement("li");
         
-        // itemList.createTextNode(todos[i]);  c'est mal utilise ici car c'est un method de document
+        //  itemListText=document.createTextNode(todos[i]); 
         
         itemList.textContent=todos[i];
         list.appendChild(itemList);

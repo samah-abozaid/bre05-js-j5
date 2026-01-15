@@ -9,6 +9,8 @@ let link = document.createElement("a");   // créer un a pour ajouter dedans un 
 ////****==> ici j'utlise pas le createTextNode pour ajouter le text 
 
 link.setAttribute("href", "https://fr.wikipedia.org/wiki/Lorem_ipsum"); // ajouter le line 
+//linkText = document.createTextNode("l'article de Wikipédia sur le Lorem Ipsum");
+//link.appendchild(linkText);
 link.textContent = "l'article de Wikipédia sur le Lorem Ipsum";  // ajouter le texte 
 document.body.appendChild(link); 
 
